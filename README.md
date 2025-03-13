@@ -38,7 +38,9 @@ Department List
 - Created a Virtual Server (Academic General Virtual Server - AGVS-Sum) in AWS using EC2.
 - Configured Amazon S3 as the Data Lake to store all raw academic attendance data.
 
- ![Image](https://github.com/user-attachments/assets/c0e38251-b310-4b2a-b7af-567fdee46aef)
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/50a81fd7-e445-421a-8d65-ed1c75e322ad" />
+
+Figure: Data Analysis Platform (DAP) design using Draw.io
 
 2. Data Storage in AWS S3
 - Created S3 bucket named academics-raw-sum to store raw data.
@@ -65,7 +67,10 @@ Department List
   - Ran three different command to ingest three datset in AWS S3 bucket
 - Verified successful ingestion in AWS S3 (Raw Data Storage)
 
-<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/3360778f-f501-4a4d-b295-4cc1eb11b412" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/3360778f-f501-4a4d-b295-4cc1eb11b412" />
+
+Figure: Data Ingestion Command Prompt on PowerShell
+
 
 #  Results & Findings:
 - Successfully created a remote virtual server to simulate UCW Academics operations.
@@ -76,7 +81,18 @@ Department List
   - Student Data: Quarterly Ingestion
   - Department Data: Quarterly Ingestion
 
-Add S3 SS for all 3 datasets
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/ac2a1f95-b813-46c3-875b-e4ed31dff667" />
+
+Figure: Succesful Student Data Ingestion in AWS S3 raw Bucket
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/60eb5109-7254-4ebd-9719-767a01275703" />
+
+Figure: Succesful Instructor Data Ingestion in AWS S3 raw Bucket
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/fe326657-4b14-4e4a-9853-f2966feaa140" />
+
+Figure: Succesful Department Data Ingestion in AWS S3 raw Bucket
+
 
 # Tools & Technologies Used:
 - Cloud Services: AWS S3, AWS EC2
