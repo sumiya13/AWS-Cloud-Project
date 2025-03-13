@@ -38,7 +38,7 @@ Department List
 - Created a Virtual Server (Academic General Virtual Server - AGVS-Sum) in AWS using EC2.
 - Configured Amazon S3 as the Data Lake to store all raw academic attendance data.
 
-Add Draw.Io Image Here
+ ![Image](https://github.com/user-attachments/assets/c0e38251-b310-4b2a-b7af-567fdee46aef)
 
 2. Data Storage in AWS S3
 - Created S3 bucket named academics-raw-sum to store raw data.
