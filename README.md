@@ -65,7 +65,7 @@ Department List
   - Ran three different command to ingest three datset in AWS S3 bucket
 - Verified successful ingestion in AWS S3 (Raw Data Storage)
 
-Add PowerSheel Image Here
+<img width="1470" alt="Image" src="https://github.com/user-attachments/assets/3360778f-f501-4a4d-b295-4cc1eb11b412" />
 
 #  Results & Findings:
 - Successfully created a remote virtual server to simulate UCW Academics operations.
