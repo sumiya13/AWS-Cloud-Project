@@ -1,10 +1,10 @@
 # Project 1: Automated Data Ingestion for UCW Academics Attendance Using AWS
-## ***Objective*** 
+##***Objective*** 
 
 
 The primary objective of this project is to ingest academic attendance data from the UCW operational environment into AWS Data Analysis Platform (DAP). The dataset includes students, instructors, and department details, and our goal is to establish a structured data lake for efficient storage and analysis.
 
-##  ***Dataset Overview***
+## ***Dataset Overview***
 This project utilizes three datasets:
 
 Student List
@@ -34,7 +34,7 @@ Department List
 - Number_of_Faculty: Total faculty members in the department
 - Building_Name: The location of the department
 
-##  ***Methodology***
+## ***Methodology***
 1. _Data Ingestion Setup_
 - Designed the Data Analysis Platform (DAP) using Draw.io to map out the ingestion process.
 - Created a Virtual Server (Academic General Virtual Server - AGVS-Sum) in AWS using EC2.
@@ -74,7 +74,7 @@ Figure: Data Analysis Platform (DAP) design using Draw.io
 Figure: Data Ingestion Command Prompt on PowerShell
 
 
-##    ***Results & Findings***
+## ***Results & Findings***
 - Successfully created a remote virtual server to simulate UCW Academics operations.
 - Designed an organized S3 data lake structure for long-term data storage.
 - Implemented automated ingestion using Windows PowerShell & AWS EC2.
@@ -96,13 +96,13 @@ Figure: Succesful Instructor Data Ingestion in AWS S3 raw Bucket
 Figure: Succesful Department Data Ingestion in AWS S3 raw Bucket
 
 
-##   ***Tools & Technologies Used***
+## ***Tools & Technologies Used***
 - Cloud Services: AWS S3, AWS EC2
 - Scripting: Windows PowerShell
 - Design & Planning: Draw.io
 - Version Control: GitHub
 
-##   ***Deliverables***
+## ***Deliverables***
 - Infrastructure Design Diagram (Draw.io)
 - AWS S3 Data Ingestion Process
 - PowerShell Commands for Data Upload
