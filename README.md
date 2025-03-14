@@ -1,5 +1,5 @@
 # Project 1: Automated Data Ingestion for UCW Academics Attendance Using AWS
-##***Objective*** 
+## ***Objective*** 
 
 
 The primary objective of this project is to ingest academic attendance data from the UCW operational environment into AWS Data Analysis Platform (DAP). The dataset includes students, instructors, and department details, and our goal is to establish a structured data lake for efficient storage and analysis.
