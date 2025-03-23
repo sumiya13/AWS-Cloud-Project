@@ -10,6 +10,8 @@ The primary objective of this project is to design and implement a **Data Analyt
 ### **Dataset Overview:**
 The dataset used in this project is the **Vancouver Parks Dataset**, retrieved from the **City of Vancouver Open Data Portal**. The dataset includes the following key attributes:
 
+Dataset Images: COV
+
 - **ParkID**: Unique identifier for each park.
 - **Name**: Name of the park.
 - **Official**: Binary indicator (0 or 1) for official park status.
@@ -30,7 +32,14 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
 
 ### **Methodology:**
 
+#### **Design to Implement**
+
+Draw.Io Image 
+
 #### **1. Data Ingestion Setup**
+
+Data Ingestion Image
+
 - **S3 Bucket Creation**: Created an S3 bucket named **`pa-raw-sum`** to store raw park data.
 - **Folder Structure**: Organized data into structured folders for efficient storage:
   ```
@@ -39,6 +48,9 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
 - **Data Upload**: Uploaded the **`park.csv`** file to the S3 bucket using the AWS Management Console.
 
 #### **2. Data Profiling**
+
+Data profiling Image
+
 - **AWS DataBrew**: Used AWS DataBrew for data profiling to identify missing values, data types, and correlations.
   - **Dataset Summary**: The dataset contains **216 rows** and **15 columns**.
   - **Data Quality Issues**: Identified **7 missing values** (<1% of total data).
@@ -50,18 +62,38 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
   - **Integer Columns**: 3
 
 #### **3. Data Cleaning**
+
+Cleaned data in User folder 
+
+Cleaned data in System folder
+
 - **Outlier Handling**: Detected and handled outliers in the **Hectares** column using the **Interquartile Range (IQR)** method.
+
+Outliers Handling Image
+
   - **Threshold**: Lower bound = 0, Upper bound = 6.75 hectares.
   - **Outliers Replaced**: 8 outliers were replaced with the median value.
 - **Column Removal**: Removed irrelevant columns (**EWStreet**, **NSStreet**) to simplify data processing.
 - **Data Cleaning Job**: Created a DataBrew job named **`par-cln-sum`** to clean the dataset and store it in both **CSV** (user-friendly) and **Parquet** (system-friendly) formats.
 
 #### **4. Data Cataloging**
+
+Data Catalog Images
+
 - **AWS Glue Crawler**: Created a crawler named **`parks-crw-sum`** to catalog the cleaned data.
 - **Database and Schema**: Created a database **`parks-data-catalog-sum`** and a schema **`par-trf-system`**.
 - **Partitioning**: Partitioned data by **NeighborhoodName** for efficient querying.
 
 #### **5. Data Summarization**
+
+ETL Pipeline Image
+
+System Freindly Summarization output
+
+User Friendly Output
+
+AWS Glue Table after Summarization 
+
 - **AWS Glue ETL Pipeline**: Used AWS Glue to summarize the dataset based on the descriptive analysis question:
   - **Grouping**: Grouped data by **NeighborhoodName**.
   - **Aggregation**: Calculated the **count of ParkID** and **average size of parks (Hectares)**.
@@ -111,6 +143,9 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
 ---
 
 ### **Cost Analysis:**
+
+Cost Analysis Image 
+
 The estimated monthly cost for implementing the DAP on AWS is **$36.74 per year**, with the following breakdown:
 - **S3 Storage**: $0.04/month for 1 GB storage.
 - **AWS Glue**: $3.01/month for ETL jobs and interactive sessions.
