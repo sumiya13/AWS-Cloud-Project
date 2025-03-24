@@ -10,7 +10,11 @@ The primary objective of this project is to design and implement a **Data Analyt
 ### **Dataset Overview:**
 The dataset used in this project is the **Vancouver Parks Dataset**, retrieved from the **City of Vancouver Open Data Portal**. The dataset includes the following key attributes:
 
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/4c2bb1014a89c85dc864660cce59e33b57e9836e/DAP_design_for_COV/images_ProjPart_1/ProjPart%201Dataset%201.png" />
+Parks Dataset from the City of Vancouver
+
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/a7bdc3bd7007c525c3be64a3eac5ff096e0d8e0a/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
+Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 
 - **ParkID**: Unique identifier for each park.
@@ -35,11 +39,13 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
 
 #### **Design to Implement**
 
-Draw.Io Image 
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/4c2bb1014a89c85dc864660cce59e33b57e9836e/DAP_design_for_COV/images_ProjPart_1/ProPart%201%20Design%20draw.io.png" />
+This image shows the design for this DAP implementation using Draw.io 
 
 #### **1. Data Ingestion Setup**
 
-Data Ingestion Image
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/9c9ce659b7ed5c5ef1aa18b810474851fbf4a488/DAP_design_for_COV/images_ProjPart_1/Data%20Ingestion_proj%20Part%201.png" />
+Data Ingestion in S3 Bucket
 
 - **S3 Bucket Creation**: Created an S3 bucket named **`pa-raw-sum`** to store raw park data.
 - **Folder Structure**: Organized data into structured folders for efficient storage:
@@ -50,7 +56,8 @@ Data Ingestion Image
 
 #### **2. Data Profiling**
 
-Data profiling Image
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/9c9ce659b7ed5c5ef1aa18b810474851fbf4a488/DAP_design_for_COV/images_ProjPart_1/Data%20Profiling_SS1.png" />
+Data Profiling 
 
 - **AWS DataBrew**: Used AWS DataBrew for data profiling to identify missing values, data types, and correlations.
   - **Dataset Summary**: The dataset contains **216 rows** and **15 columns**.
