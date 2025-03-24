@@ -2,16 +2,17 @@
 
 ---
 
-### :pushpin:**Objective:**
+### :pushpin: **Objective:**
 The primary objective of this project is to design and implement a **Data Analytics Platform (DAP)** for the City of Vancouver’s Parks dataset. The platform will enable descriptive analysis of park distribution and average size across neighborhoods, while also calculating the monthly cost of implementing this platform on AWS. The project aims to provide actionable insights for urban planning and resource allocation by analyzing park density and size relative to population distribution.
 
 ---
 
-### :pushpin:**Dataset Overview:**
+### :pushpin: **Dataset Overview:**
 The dataset used in this project is the **Vancouver Parks Dataset**, retrieved from the **City of Vancouver Open Data Portal**. The dataset includes the following key attributes:
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/4c2bb1014a89c85dc864660cce59e33b57e9836e/DAP_design_for_COV/images_ProjPart_1/ProjPart%201Dataset%201.png" />
 Parks Dataset from the City of Vancouver
+
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/a7bdc3bd7007c525c3be64a3eac5ff096e0d8e0a/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
 Parks Dataset from the City of Vancouver with selected metrics for data analysis
@@ -35,17 +36,19 @@ Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 ---
 
-### **Methodology:**
+### :pushpin: **Methodology:**
 
 #### **Design to Implement**
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/4c2bb1014a89c85dc864660cce59e33b57e9836e/DAP_design_for_COV/images_ProjPart_1/ProPart%201%20Design%20draw.io.png" />
 This image shows the design for this DAP implementation using Draw.io 
 
+
 #### **1. Data Ingestion Setup**
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/9c9ce659b7ed5c5ef1aa18b810474851fbf4a488/DAP_design_for_COV/images_ProjPart_1/Data%20Ingestion_proj%20Part%201.png" />
 Data Ingestion in S3 Bucket
+
 
 
 - **S3 Bucket Creation**: Created an S3 bucket named **`pa-raw-sum`** to store raw park data.
@@ -60,6 +63,7 @@ Data Ingestion in S3 Bucket
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/9c9ce659b7ed5c5ef1aa18b810474851fbf4a488/DAP_design_for_COV/images_ProjPart_1/Data%20Profiling_SS1.png" />
 Data Profiling 
 
+
 - **AWS DataBrew**: Used AWS DataBrew for data profiling to identify missing values, data types, and correlations.
   - **Dataset Summary**: The dataset contains **216 rows** and **15 columns**.
   - **Data Quality Issues**: Identified **7 missing values** (<1% of total data).
@@ -72,12 +76,15 @@ Data Profiling
 
 #### **3. Data Cleaning**
 
+
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/CleanData_user_SS.png" />
 Cleaned data in User folder 
 
 
+
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/CleanData_System_SS.png" />
 Clean and Partitioned data in System folder
+
 
 - **Outlier Handling**: Detected and handled outliers in the **Hectares** column using the **Interquartile Range (IQR)** method.
   - **Threshold**: Lower bound = 0, Upper bound = 6.75 hectares.
@@ -90,6 +97,7 @@ Clean and Partitioned data in System folder
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/CleanData_System_SS.png" />
 Data Catalog creation for parks dataset using AWS Glue Service
 
+
 - **AWS Glue Crawler**: Created a crawler named **`parks-crw-sum`** to catalog the cleaned data.
 - **Database and Schema**: Created a database **`parks-data-catalog-sum`** and a schema **`par-trf-system`**.
 - **Partitioning**: Partitioned data by **NeighborhoodName** for efficient querying.
@@ -99,11 +107,14 @@ Data Catalog creation for parks dataset using AWS Glue Service
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/ProjPart1%20%20ETL%20Pipeline.png" />
 Visual ETL Pipeline for Parks data summarization
 
+
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/System%20friendly%20Data%20Summarization_PrjPart1.png" />
 System-friendly parks data summarization (report Date-wise )
 
+
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/User%20Friendly%20Summarization_PrjPart%201.png" />
 User-friendly parks data summarization in CSV format
+
 
 
 AWS Glue Table after Summarization 
@@ -115,7 +126,7 @@ AWS Glue Table after Summarization
 
 ---
 
-### **Results & Findings:**
+### :pushpin: **Results & Findings:**
 
 #### **Park Distribution Across Neighborhoods:**
 - **Downtown**: Highest number of parks (**22 parks**), but smaller in size (**1.44 hectares** on average).
@@ -123,7 +134,7 @@ AWS Glue Table after Summarization
 - **Hastings-Sunrise & Kitsilano**: Moderate number of parks (**16 parks each**).
 - **Grandview-Woodland**: Smaller parks (**0.78 hectares** on average).
 
-#### **Key Observations:**
+#### :pushpin: **Key Observations:**
 - **Urban Areas (Downtown, Grandview-Woodland)**: High park density but smaller park sizes due to space constraints.
 - **Suburban Areas (Shaughnessy, Dunbar-Southlands)**: Fewer parks but larger in size, reflecting lower population density and more available land.
 
@@ -139,7 +150,7 @@ AWS Glue Table after Summarization
 
 ---
 
-### **Deliverables:**
+### :pushpin: **Deliverables:**
 1. **Infrastructure Design Diagram** (Draw.io).
 2. **AWS S3 Data Ingestion Process**.
 3. **Data Profiling and Cleaning Reports** (AWS DataBrew).
@@ -148,7 +159,7 @@ AWS Glue Table after Summarization
 
 ---
 
-### **Future Enhancements:**
+### :pushpin: **Future Enhancements:**
 1. **Automation**: Use **AWS Lambda** to automate data ingestion and cleaning processes.
 2. **Advanced Analytics**: Integrate **AWS Athena** for querying and advanced analysis.
 3. **Real-Time Data Processing**: Implement **Amazon Kinesis** for real-time data streaming.
@@ -156,10 +167,11 @@ AWS Glue Table after Summarization
 
 ---
 
-### **Cost Analysis:**
+### :pushpin: **Cost Analysis:**
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/Cost%20Calculation_Parks%20Data.png" />
 Cost Analysis Image 
+
 
 The estimated monthly cost for implementing the DAP on AWS is **$36.74 per year**, with the following breakdown:
 - **S3 Storage**: $0.04/month for 1 GB storage.
@@ -168,7 +180,7 @@ The estimated monthly cost for implementing the DAP on AWS is **$36.74 per year*
 
 ---
 
-### **Conclusion:**
+### :pushpin: **Conclusion:**
 This project successfully designed and implemented a **Data Analytics Platform (DAP)** for the City of Vancouver’s Parks dataset. By leveraging AWS services, we created a scalable and cost-effective solution for analyzing park distribution and size across neighborhoods. The insights generated from this platform will assist urban planners in making data-driven decisions for resource allocation and park development. This project lays the foundation for future enhancements, including automation and advanced analytics.
 
 --- 
