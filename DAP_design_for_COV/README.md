@@ -124,7 +124,7 @@ User-friendly parks data summarization in CSV format
 
 
 
-## :pushpin: **Results & Findings**
+## 📌 **Results & Findings**
 
 ### **Park Distribution Across Neighborhoods:**
 - **Downtown**: Highest number of parks (**22 parks**), but smaller in size (**1.44 hectares** on average).
@@ -132,13 +132,13 @@ User-friendly parks data summarization in CSV format
 - **Hastings-Sunrise & Kitsilano**: Moderate number of parks (**16 parks each**).
 - **Grandview-Woodland**: Smaller parks (**0.78 hectares** on average).
 
-### :pushpin: **Key Observations**
+### 📌 **Key Observations**
 - **Urban Areas (Downtown, Grandview-Woodland)**: High park density but smaller park sizes due to space constraints.
 - **Suburban Areas (Shaughnessy, Dunbar-Southlands)**: Fewer parks but larger in size, reflecting lower population density and more available land.
 
 
 
-## **Tools & Technologies Used**
+## 📌 **Tools & Technologies Used**
 - **Cloud Services**: AWS S3, AWS DataBrew, AWS Glue.
 - **Data Profiling & Cleaning**: AWS DataBrew.
 - **Data Cataloging**: AWS Glue Crawler.
@@ -148,7 +148,7 @@ User-friendly parks data summarization in CSV format
 
 
 
-## :pushpin: **Deliverables**
+## 📌  **Deliverables**
 1. **Infrastructure Design Diagram** (Draw.io).
 2. **AWS S3 Data Ingestion Process**.
 3. **Data Profiling and Cleaning Reports** (AWS DataBrew).
@@ -157,7 +157,7 @@ User-friendly parks data summarization in CSV format
 
 
 
-## :pushpin: **Future Enhancements**
+## 📌 **Future Enhancements**
 1. **Automation**: Use **AWS Lambda** to automate data ingestion and cleaning processes.
 2. **Advanced Analytics**: Integrate **AWS Athena** for querying and advanced analysis.
 3. **Real-Time Data Processing**: Implement **Amazon Kinesis** for real-time data streaming.
@@ -165,7 +165,7 @@ User-friendly parks data summarization in CSV format
 
 
 
-## :pushpin: **Cost Analysis**
+## 📌 **Cost Analysis**
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/Cost%20Calculation_Parks%20Data.png" />
 Cost Analysis Image 
@@ -178,7 +178,7 @@ The estimated monthly cost for implementing the DAP on AWS is **$36.74 per year*
 
 
 
-## :pushpin: **Conclusion**
+## 📌 **Conclusion**
 This project successfully designed and implemented a **Data Analytics Platform (DAP)** for the City of Vancouver’s Parks dataset. By leveraging AWS services, we created a scalable and cost-effective solution for analyzing park distribution and size across neighborhoods. The insights generated from this platform will assist urban planners in making data-driven decisions for resource allocation and park development. This project lays the foundation for future enhancements, including automation and advanced analytics.
 
 
