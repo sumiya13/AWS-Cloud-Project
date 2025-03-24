@@ -37,12 +37,17 @@ Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 ## 📌 **Methodology**
 
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/d3e50f44-6d30-4ece-82eb-e2edfeb0d13d" />
+
+This is the DAP Implementation design part that we implemented for 'parks' dataset
+
+
 ### **1. Data Analysis**
 - **AWS Athena**: Used to analyze the dataset and answer key questions about park distribution and size across neighborhoods.
-  - **Query 1**: Total number of parks per neighborhood.
-  - **Query 2**: Average park size per neighborhood.
-  - **Query 3**: Top 5 largest parks in Vancouver.
-  - **Query 4**: Comparison of neighborhoods with similar park counts but different park sizes.
+  - **Business Problem 1**: Total number of parks per neighborhood.
+  - **Business Problem  2**: Average park size per neighborhood.
+  - **Business Problem 3**: Top 5 largest parks in Vancouver.
+  - **Business Problem 4**: Comparison of neighborhoods with similar park counts but different park sizes.
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/3f44c0e0-522c-4ad6-99d9-f3be1b6a6f11" />
 
