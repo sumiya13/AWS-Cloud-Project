@@ -11,10 +11,12 @@ The primary objective of this project is to design and implement a **Data Analyt
 The dataset used in this project is the **Vancouver Parks Dataset**, retrieved from the **City of Vancouver Open Data Portal**. The dataset includes the following key attributes:
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/72931029-478d-478e-ae1f-b57d9b302b10" />
+
 Parks Dataset from the City of Vancouver
 
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/66c89ab1-cdbb-43a6-b083-33120a6dbcd5" />
+
 Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 
@@ -41,12 +43,14 @@ Parks Dataset from the City of Vancouver with selected metrics for data analysis
 #### **Design to Implement**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/3f44c0e0-522c-4ad6-99d9-f3be1b6a6f11" />
+
 This image shows the design for this DAP implementation using Draw.io 
 
 
 ### **1. _Data Ingestion Setup_**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/58f752fc-789b-42ce-a6e8-94536cf20b0f" />
+
 Data Ingestion in S3 Bucket
 
 
@@ -61,6 +65,7 @@ Data Ingestion in S3 Bucket
 ### **2. _Data Profiling_**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/a0ce134f-5206-43e1-b07a-ba898b7da353" />
+
 Data Profiling 
 
 
@@ -78,11 +83,13 @@ Data Profiling
 
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/b091a69e-937d-4efc-b2bc-022823d6693f" />
+
 Cleaned data in User folder 
 
 
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/f3031b4a-fcc9-433c-b149-5fe3f4d443e2" />
+
 Clean and Partitioned data in System folder
 
 
@@ -95,6 +102,7 @@ Clean and Partitioned data in System folder
 ### **4. _Data Cataloging_**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/834f083c-de44-4969-b391-c6e800cfe0aa" />
+
 Data Catalog creation for parks dataset using AWS Glue Service
 
 
@@ -105,14 +113,17 @@ Data Catalog creation for parks dataset using AWS Glue Service
 ### **5. _Data Summarization_**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/5a6207e8-424b-4629-87b0-2d94e1390db4" />
+
 Visual ETL Pipeline for Parks data summarization
 
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/abd8e8c1-7d65-4b92-8b8c-d2d6225b6b7b" />
+
 System-friendly parks data summarization (report Date-wise )
 
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/c7907d24-2994-4fc3-9a32-7aaf8d5bb200" />
+
 User-friendly parks data summarization in CSV format
 
 
@@ -168,6 +179,7 @@ User-friendly parks data summarization in CSV format
 ## 📌 **Cost Analysis**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/1615e734-44bb-461b-b396-aa168c831112" />
+
 Estimated cost for DAP implementation  
 
 
