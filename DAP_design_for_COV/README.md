@@ -2,19 +2,19 @@
 
 
 
-# :pushpin: **Objective**
+# 📌**Objective**
 The primary objective of this project is to design and implement a **Data Analytics Platform (DAP)** for the City of Vancouver’s Parks dataset. The platform will enable descriptive analysis of park distribution and average size across neighborhoods, while also calculating the monthly cost of implementing this platform on AWS. The project aims to provide actionable insights for urban planning and resource allocation by analyzing park density and size relative to population distribution.
 
 
 
-## :pushpin: **Dataset Overview**
+## 📌 **Dataset Overview**
 The dataset used in this project is the **Vancouver Parks Dataset**, retrieved from the **City of Vancouver Open Data Portal**. The dataset includes the following key attributes:
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/4c2bb1014a89c85dc864660cce59e33b57e9836e/DAP_design_for_COV/images_ProjPart_1/ProjPart%201Dataset%201.png" />
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/main/DAP_design_for_COV/images_ProjPart_1/ProjPart%201Dataset%201.png" />
 Parks Dataset from the City of Vancouver
 
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/a7bdc3bd7007c525c3be64a3eac5ff096e0d8e0a/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/main/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
 Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 
@@ -36,7 +36,7 @@ Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 
 
-## :pushpin: **Methodology**
+## 📌 **Methodology**
 
 #### **Design to Implement**
 
