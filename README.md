@@ -17,3 +17,14 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
      - **Cost Estimation**: AWS Pricing Calculator.
      - **Design & Planning**: Draw.io.
 
+
+2. **[Project 3:  Data Analytics Platform (DAP) Implementation for the City of Vancouver Parks Dataset (Part 2)](./DAP_Design_COV_Part2)**
+   - **Objective**: The second phase of this project focuses on data analysis, security, monitoring, and governance for the City of Vancouver’s Parks dataset. The goal is to enhance the DAP by ensuring data integrity, security, and operational excellence while providing actionable insights into park distribution and size across neighborhoods.
+   - **Tools**:
+     - **Cloud Services**: AWS S3, AWS DataBrew, AWS Glue.
+     - **Data Profiling & Cleaning**: AWS DataBrew.
+     - **Data Cataloging**: AWS Glue Crawler.
+     - **Data Summarization**: AWS Glue ETL Pipeline.
+     - **Cost Estimation**: AWS Pricing Calculator.
+     - **Design & Planning**: Draw.io.
+
