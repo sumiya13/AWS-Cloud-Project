@@ -1,4 +1,4 @@
-# Project Title: Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset
+# Project 2: Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset
 
 
 
