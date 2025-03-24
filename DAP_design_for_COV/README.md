@@ -10,7 +10,8 @@ The primary objective of this project is to design and implement a **Data Analyt
 ### **Dataset Overview:**
 The dataset used in this project is the **Vancouver Parks Dataset**, retrieved from the **City of Vancouver Open Data Portal**. The dataset includes the following key attributes:
 
-Dataset Images: COV
+<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/a7bdc3bd7007c525c3be64a3eac5ff096e0d8e0a/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
+
 
 - **ParkID**: Unique identifier for each park.
 - **Name**: Name of the park.
