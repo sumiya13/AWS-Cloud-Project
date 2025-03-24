@@ -13,6 +13,7 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/main/DAP_design_for_COV/images_ProjPart_1/ProjPart%201Dataset%201.png" />
 Parks Dataset from the City of Vancouver
 
+![Image](https://github.com/user-attachments/assets/72931029-478d-478e-ae1f-b57d9b302b10)
 
 <img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/main/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
 Parks Dataset from the City of Vancouver with selected metrics for data analysis
