@@ -45,15 +45,37 @@ This is the DAP Implementation design part that we implemented for 'parks' datas
 ### **1. Data Analysis**
 - **AWS Athena**: Used to analyze the dataset and answer key questions about park distribution and size across neighborhoods.
   - **Business Problem 1**: Total number of parks per neighborhood.
-  - **Business Problem  2**: Average park size per neighborhood.
+  - **Business Problem 2**: Average park size per neighborhood.
   - **Business Problem 3**: Top 5 largest parks in Vancouver.
   - **Business Problem 4**: Comparison of neighborhoods with similar park counts but different park sizes.
 
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/3f44c0e0-522c-4ad6-99d9-f3be1b6a6f11" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1c71a89e-4ee6-4793-8028-f746c05c68e3" />
 
-AWS Athena Query Results
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/657583b3-9b71-4b8b-9ead-185ae5f0b941" />
 
 
+Query and the output for finding the insights for Business Problem 1
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/6ee3ddbf-ab6e-465c-9ddc-5b566978bda1" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/a569bdf4-6590-43bb-b474-27642e4a8e92" />
+
+
+Query and the output for finding the insights for Business Problem 2
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/9e0165ae-6889-46ee-8047-8aa2f8a389b5" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/134dc375-6663-42bb-8ab0-bd22dc2427c1" />
+
+
+Query and the output for finding the insights for Business Problem 3
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/8e8ac1a7-c573-4863-9e98-0da13b6c5423" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/3d9fb0e0-4608-442b-8941-f63812b5bf4f" />
+
+
+Query and the output for finding the insights for Business Problem 4
 
 ### **2. Data Security**
 - **AWS Key Management System (KMS)**: Created a custom key (`parks-key-sum`) for encryption and decryption.
@@ -61,7 +83,7 @@ AWS Athena Query Results
 - **Bucket Versioning**: Enabled versioning to track changes and ensure data integrity.
 - **Replication Rules**: Created replication rules to ensure data availability across multiple locations.
 
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/58f752fc-789b-42ce-a6e8-94536cf20b0f" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1c71a89e-4ee6-4793-8028-f746c05c68e3" />
 
 S3 Bucket Encryption and Versioning
 
