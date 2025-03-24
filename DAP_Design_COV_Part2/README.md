@@ -84,7 +84,7 @@ Query and the output for finding the insights for Business Problem 4
 - **Replication Rules**: Created replication rules to ensure data availability across multiple locations.
 
 
-**S3 raw bucket
+**Bucket: S3 raw bucket**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/9ea57c15-0252-4780-8721-be5004ef7fbe" />
 
