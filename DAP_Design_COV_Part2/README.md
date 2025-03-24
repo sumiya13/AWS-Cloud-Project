@@ -42,7 +42,7 @@ Parks Dataset from the City of Vancouver with selected metrics for data analysis
 This is the DAP Implementation design part that we implemented for 'parks' dataset
 
 
-### **1. Data Analysis**
+### **📉 1. Data Analysis**
 - **AWS Athena**: Used to analyze the dataset and answer key questions about park distribution and size across neighborhoods.
   - **Business Problem 1**: Total number of parks per neighborhood.
   - **Business Problem 2**: Average park size per neighborhood.
@@ -84,7 +84,7 @@ Query and the output for finding the insights for Business Problem 4
 - **Replication Rules**: Created replication rules to ensure data availability across multiple locations.
 
 
-**Bucket: S3 raw bucket**
+**🪣 Bucket: S3 raw bucket**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/9ea57c15-0252-4780-8721-be5004ef7fbe" />
 
@@ -101,7 +101,7 @@ Enables ‘Bucket Versioning’ in S3 raw bucket
 Replication rule in S3 raw bucket
 
 
-**Bucket: parks-trf-sum**
+**🪣 Bucket: parks-trf-sum**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/1a106cfe-cdee-4c0e-b638-ac8126e61eb9" />
 
@@ -118,7 +118,7 @@ Enables ‘Bucket Versioning’ in S3 trf bucket
 Replication rule in S3 trf bucket
 
 
-**Bucket: parks-cur-sum**
+**🪣 Bucket: parks-cur-sum**
 
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/1e919fc8-cdac-4bf7-9626-bacc7a3cdd5a" />
 
@@ -167,7 +167,7 @@ Quality Checked passed dataset in S3 trf bucket
 Quality checked failed dataset in S3 trf bucket
 
 
-### **4. Data Monitoring**
+### **⏰ 4. Data Monitoring**
 - **AWS CloudWatch**: Created a dashboard (`parks-MCR-sum`) to monitor:
   - **Bucket Size**: Tracked storage changes in S3 buckets over time.
   - **AWS Glue Resource Usage**: Monitored resource consumption for ETL jobs.
