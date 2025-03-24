@@ -13,9 +13,8 @@ The dataset used in this project is the **Vancouver Parks Dataset**, retrieved f
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/72931029-478d-478e-ae1f-b57d9b302b10" />
 Parks Dataset from the City of Vancouver
 
-![Image](https://github.com/user-attachments/assets/72931029-478d-478e-ae1f-b57d9b302b10)
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/main/DAP_design_for_COV/images_ProjPart_1/Dataset%20ProjPart%201.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/66c89ab1-cdbb-43a6-b083-33120a6dbcd5" />
 Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 
@@ -41,13 +40,13 @@ Parks Dataset from the City of Vancouver with selected metrics for data analysis
 
 #### **Design to Implement**
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/4c2bb1014a89c85dc864660cce59e33b57e9836e/DAP_design_for_COV/images_ProjPart_1/ProPart%201%20Design%20draw.io.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/3f44c0e0-522c-4ad6-99d9-f3be1b6a6f11" />
 This image shows the design for this DAP implementation using Draw.io 
 
 
 ### **1. _Data Ingestion Setup_**
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/9c9ce659b7ed5c5ef1aa18b810474851fbf4a488/DAP_design_for_COV/images_ProjPart_1/Data%20Ingestion_proj%20Part%201.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/58f752fc-789b-42ce-a6e8-94536cf20b0f" />
 Data Ingestion in S3 Bucket
 
 
@@ -61,7 +60,7 @@ Data Ingestion in S3 Bucket
 
 ### **2. _Data Profiling_**
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/9c9ce659b7ed5c5ef1aa18b810474851fbf4a488/DAP_design_for_COV/images_ProjPart_1/Data%20Profiling_SS1.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/a0ce134f-5206-43e1-b07a-ba898b7da353" />
 Data Profiling 
 
 
@@ -78,12 +77,12 @@ Data Profiling
 ### **3. _Data Cleaning_**
 
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/CleanData_user_SS.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/b091a69e-937d-4efc-b2bc-022823d6693f" />
 Cleaned data in User folder 
 
 
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/CleanData_System_SS.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/f3031b4a-fcc9-433c-b149-5fe3f4d443e2" />
 Clean and Partitioned data in System folder
 
 
@@ -95,7 +94,7 @@ Clean and Partitioned data in System folder
 
 ### **4. _Data Cataloging_**
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/CleanData_System_SS.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/834f083c-de44-4969-b391-c6e800cfe0aa" />
 Data Catalog creation for parks dataset using AWS Glue Service
 
 
@@ -105,15 +104,15 @@ Data Catalog creation for parks dataset using AWS Glue Service
 
 ### **5. _Data Summarization_**
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/77e97387b38b03e8a195b2e327efa080a2c73e53/DAP_design_for_COV/images_ProjPart_1/ProjPart1%20%20ETL%20Pipeline.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/5a6207e8-424b-4629-87b0-2d94e1390db4" />
 Visual ETL Pipeline for Parks data summarization
 
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/System%20friendly%20Data%20Summarization_PrjPart1.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/abd8e8c1-7d65-4b92-8b8c-d2d6225b6b7b" />
 System-friendly parks data summarization (report Date-wise )
 
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/User%20Friendly%20Summarization_PrjPart%201.png" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/c7907d24-2994-4fc3-9a32-7aaf8d5bb200" />
 User-friendly parks data summarization in CSV format
 
 
@@ -168,8 +167,8 @@ User-friendly parks data summarization in CSV format
 
 ## 📌 **Cost Analysis**
 
-<img width="600" alt="Image" src="https://github.com/sumiya13/AWS-Cloud-Project/blob/075da8d0334b73322300e311d38b4e73211e22e0/DAP_design_for_COV/images_ProjPart_1/Cost%20Calculation_Parks%20Data.png" />
-Cost Analysis Image 
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1615e734-44bb-461b-b396-aa168c831112" />
+Estimated cost for DAP implementation  
 
 
 The estimated monthly cost for implementing the DAP on AWS is **$36.74 per year**, with the following breakdown:
