@@ -83,10 +83,56 @@ Query and the output for finding the insights for Business Problem 4
 - **Bucket Versioning**: Enabled versioning to track changes and ensure data integrity.
 - **Replication Rules**: Created replication rules to ensure data availability across multiple locations.
 
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1c71a89e-4ee6-4793-8028-f746c05c68e3" />
 
-S3 Bucket Encryption and Versioning
+**S3 raw bucket
 
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/9ea57c15-0252-4780-8721-be5004ef7fbe" />
+
+Assigning keys to S3 raw bucket by changing ‘Default Encryption’
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/842b6f94-9b07-4c4f-8e0b-a8e49b646c5b" />
+
+Enables ‘Bucket Versioning’ in S3 raw bucket
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/e005a2e2-b3f7-44ba-8217-c11da4cde9d3" />
+
+Replication rule in S3 raw bucket
+
+
+**Bucket: parks-trf-sum**
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1a106cfe-cdee-4c0e-b638-ac8126e61eb9" />
+
+Assigning keys to the S3 trf bucket by changing ‘Default Encryption’
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/726f3bfb-e188-4465-9d05-f66f7fad31b2" />
+
+Enables ‘Bucket Versioning’ in S3 trf bucket
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/72d9a43a-04e2-4e5d-ae54-6051fda3b1c6" />
+
+Replication rule in S3 trf bucket
+
+
+**Bucket: parks-cur-sum**
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1e919fc8-cdac-4bf7-9626-bacc7a3cdd5a" />
+
+Assigning keys to the S3 cur bucket by changing ‘Default Encryption’
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1c3e27a8-c512-4882-b451-dfe3f5a327eb" />
+
+Enables ‘Bucket Versioning’ in S3 cur bucket
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/58bf6be6-2f88-4adc-8994-60c9f50ab77e" />
+
+Replication rule in S3 cur bucket
 
 
 ### **3. Data Governance**
@@ -95,11 +141,31 @@ S3 Bucket Encryption and Versioning
   - Set rules for data completeness, uniqueness, and value consistency.
 - **Visual ETL Pipeline**: Automated data quality checks using AWS Glue.
 
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/834f083c-de44-4969-b391-c6e800cfe0aa" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/b4eabb4b-2f39-4cbb-8134-9584f2a935bd" />
 
 AWS Glue Data Quality Check Pipeline
 
----
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/a1f06c03-e037-4904-86c6-f0cf44cb084b" />
+
+Quality check rules
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/9351567b-2418-4d39-9da8-c6fb04e5557d" />
+
+Data preview for quality check rulesets
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/e8991b07-6564-48fc-b2f7-5204a2d0c343" />
+
+Quality Checked passed dataset in S3 trf bucket
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/34f9bb89-21bd-4e34-96b2-5e56993dc097" />
+
+Quality checked failed dataset in S3 trf bucket
+
 
 ### **4. Data Monitoring**
 - **AWS CloudWatch**: Created a dashboard (`parks-MCR-sum`) to monitor:
@@ -108,10 +174,14 @@ AWS Glue Data Quality Check Pipeline
   - **Number of Objects**: Tracked the average number of objects in each S3 bucket.
 - **AWS CloudTrail**: Created a trail (`parks-trail-sum`) to monitor user activities and API usage.
 
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/1615e734-44bb-461b-b396-aa168c831112" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/efc93d0d-4e9b-4f6b-836d-f0ab21fc10e8" />
 
-CloudWatch Monitoring Dashboard
+Data monitoring dashboard in AWS CloudWatch
 
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/d1d05907-e40e-424c-bbf3-78fa67beb0c6" />
+
+CloudTrail user activities log
 
 
 ## 📌 **Results & Findings**
