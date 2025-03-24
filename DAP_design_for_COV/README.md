@@ -1,4 +1,4 @@
-# ![#1589F0] Project 2: Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset'#1589F0'
+# Project 2: Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset
 
 
 
