@@ -125,6 +125,7 @@ Enabling the 'Bucket Versioning' for 'academics-raw-sum' bucket
 
 Enabling the 'Bucket Versioning' for 'academics-trf-sum' bucket 
 
+
 <img width="600" alt="Image" src="https://github.com/user-attachments/assets/e90ca737-bc8a-4945-b8eb-b64e5300ab75" />
 
 Enabling the 'Bucket Versioning' for 'academics-cur-sum' bucket 
@@ -147,6 +148,22 @@ Enabling the 'Bucket Versioning' for 'academics-cur-sum' bucket
   - Configured in **Management tab** of each primary bucket
   - Selected **destination buckets** as their respective backups
   - Enabled **Bucket Versioning** in all backup buckets as a prerequisite
+ 
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/125cf660-b6cd-4ad5-a6a6-61fd175f486c" />
+
+Creating 'Replication rule' for 'academics-raw-sum' bucket 
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/557e6996-f13e-423f-ac00-844a83c8ca5f" />
+
+Creating 'Replication rule' for 'academics-trf-sum' bucket 
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/7b4338fd-8056-4337-b44d-124844c35db7" />
+
+Creating 'Replication rule' for 'academics-cur-sum' bucket 
+
 
 💾 This ensures **automated, real-time replication** of all data into backup buckets — a crucial step in maintaining **availability**.
 
@@ -177,6 +194,7 @@ Enabling the 'Bucket Versioning' for 'academics-cur-sum' bucket
 ---
 
 ## 📦 Deliverables
+- ✅ Created design using draw.io
 - ✅ Configured **customer-managed encryption key** (`aca-attn-key-sum`)  
 - ✅ Updated encryption policy in 3 primary buckets  
 - ✅ Bucket versioning enabled on both primary and backup buckets  
