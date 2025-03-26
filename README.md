@@ -1,6 +1,6 @@
 # AWS Cloud Projects Portfolio
 
-<img src="https://github.com/user-attachments/assets/b81a9259-eba8-41c5-95fb-3201544a94e5" alt="AWS Academy Graduate - Cloud Foundations Badge" width="200">
+<img src="https://github.com/user-attachments/assets/6fcbd034-bbdd-462e-a807-746a6151de9e" alt="AWS Cover photo" >
 
 Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've worked on:
 
