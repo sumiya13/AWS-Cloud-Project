@@ -18,7 +18,7 @@ To explore my **AWS Cloud Projects**:
    - **Tools**:
       - **Cloud Services: AWS S3, AWS EC2**
       - **Scripting: Windows PowerShell**
-      - **Design & Planning: Draw.io.**
+      - **Design & Planning**: Draw.io.
 
 
 2. **[Project 2:  Summarization and ETL Pipeline for UCW Academics Attendance Using AWS Services](./Academics_Attendancedata_Summarization)**
@@ -28,7 +28,7 @@ To explore my **AWS Cloud Projects**:
       - **ETL & Summarization: AWS Glue.**
       - **Storage: Amazon S3 (academics-trf-sum, academics-cur-sum).**
       - **Web Application Launch: AWS Elastic Beanstalk.**
-      - **Design & Planning**: Draw.io.**
+      - **Design & Planning**: Draw.io.
 
 
 3. **[Project 3:  Data Security Implementation for UCW Attendance Procedure Datasets Using AWS KMS & S3](./Data_Security_Implementation_attendance)**
@@ -38,7 +38,7 @@ To explore my **AWS Cloud Projects**:
       - **Security Features: SSE-KMS, Bucket Versioning, S3 Replication**
       - **Identity Management: IAM Role Labrole**
       - **Monitoring: S3 Management, Encryption Policies**
-      - **Design & Planning**: Draw.io.**
+      - **Design & Planning**: Draw.io.
     
 
 4. **[Project 4:  Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset (Part 1)](./DAP_design_for_COV)**
@@ -49,7 +49,7 @@ To explore my **AWS Cloud Projects**:
      - **Data Cataloging**: AWS Glue Crawler.
      - **Data Summarization**: AWS Glue ETL Pipeline.
      - **Cost Estimation**: AWS Pricing Calculator.
-     - **Design & Planning**: Draw.io.**
+     - **Design & Planning**: Draw.io.
 
 
 5. **[Project 5:  Data Analytics Platform (DAP) Implementation for the City of Vancouver Parks Dataset (Part 2)](./DAP_Design_COV_Part2)**
