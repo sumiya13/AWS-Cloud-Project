@@ -1,5 +1,7 @@
 # AWS Cloud Projects Portfolio
 
+<img src="https://github.com/user-attachments/assets/b81a9259-eba8-41c5-95fb-3201544a94e5" alt="AWS Academy Graduate - Cloud Foundations Badge" width="200">
+
 Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've worked on:
 
 ## Projects
@@ -8,7 +10,7 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
    - **Tools**:
       - **Cloud Services: AWS S3, AWS EC2**
       - **Scripting: Windows PowerShell**
-      - **Design & Planning: Draw.io**
+      - **Design & Planning: Draw.io.**
 
 
 2. **[Project 2:  Summarization and ETL Pipeline for UCW Academics Attendance Using AWS Services](./Academics_Attendancedata_Summarization)**
@@ -39,7 +41,7 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
      - **Data Cataloging**: AWS Glue Crawler.
      - **Data Summarization**: AWS Glue ETL Pipeline.
      - **Cost Estimation**: AWS Pricing Calculator.
-     - **Design & Planning**: Draw.io.
+     - **Design & Planning**: Draw.io.**
 
 
 5. **[Project 5:  Data Analytics Platform (DAP) Implementation for the City of Vancouver Parks Dataset (Part 2)](./DAP_Design_COV_Part2)**
