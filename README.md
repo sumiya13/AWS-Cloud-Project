@@ -18,8 +18,17 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
       - **Design & Planning**: Draw.io.**
 
 
+3. **[Project 3:  Data Security Implementation for UCW Attendance Procedure Datasets Using AWS KMS & S3](./Data_Security_Implementation_attendance)**
+   - **Objective**: The objective of this project is to implement data security best practices for academic attendance datasets at UCW using AWS Key Management Service (KMS) and S3 storage configuration. This project ensures data confidentiality, integrity, and availability (CIA) by applying encryption, bucket versioning, and replication strategies.
+   - **Tools**:
+      - **Cloud Services: AWS S3, AWS KMS, AWS IAM**
+      - **Security Features: SSE-KMS, Bucket Versioning, S3 Replication**
+      - **Identity Management: IAM Role Labrole**
+      - **Monitoring: S3 Management, Encryption Policies**
+      - **Design & Planning**: Draw.io.**
+    
 
-2. **[Project 3:  Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset (Part 1)](./DAP_design_for_COV)**
+4. **[Project 4:  Data Analytics Platform (DAP) Design and Implementation for the City of Vancouver Parks Dataset (Part 1)](./DAP_design_for_COV)**
    - **Objective**: The primary objective of this project is to design and implement a **Data Analytics Platform (DAP)** for the City of Vancouver’s Parks dataset. The platform will enable descriptive analysis of park distribution and average size across neighborhoods, while also calculating the monthly cost of implementing this platform on AWS. The project aims to provide actionable insights for urban planning and resource allocation by analyzing park density and size relative to population distribution.
    - **Tools**:
      - **Cloud Services**: AWS S3, AWS DataBrew, AWS Glue.
@@ -30,7 +39,7 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
      - **Design & Planning**: Draw.io.
 
 
-2. **[Project 4:  Data Analytics Platform (DAP) Implementation for the City of Vancouver Parks Dataset (Part 2)](./DAP_Design_COV_Part2)**
+5. **[Project 5:  Data Analytics Platform (DAP) Implementation for the City of Vancouver Parks Dataset (Part 2)](./DAP_Design_COV_Part2)**
    - **Objective**: The second phase of this project focuses on data analysis, security, monitoring, and governance for the City of Vancouver’s Parks dataset. The goal is to enhance the DAP by ensuring data integrity, security, and operational excellence while providing actionable insights into park distribution and size across neighborhoods.
    - **Tools**:
       - **Cloud Services**: AWS S3, AWS KMS, AWS Glue, AWS Athena, AWS CloudWatch, AWS CloudTrail.
