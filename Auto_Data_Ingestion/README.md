@@ -7,7 +7,7 @@ The primary objective of this project is to ingest academic attendance data from
 ## **📌 Dataset Overview** 
 This project utilizes three datasets:
 
-Student List
+🎓**Student List**
 - Student_ID: Unique identifier for each student
 - Name: Full name of the student
 - Age: Age of the student
@@ -18,7 +18,7 @@ Student List
 - Attendance (%): Attendance percentage of the student
 - Scholarship: Yes/No indicator for scholarship status
 
-Instructor List
+**Instructor List**
 - Instructor_ID: Unique identifier for each instructor
 - Name: Instructor's full name
 - Age: Instructor’s age
@@ -36,7 +36,7 @@ Department List
 
 ## **📌 Methodology** 
 1. _Data Ingestion Setup_
-- Designed the Data Analysis Platform (DAP) using Draw.io to map out the ingestion process.
+- Designed the Data Analysis Platform (DAP) using **Draw.io** to map out the ingestion process.
 - Created a Virtual Server (Academic General Virtual Server - AGVS-Sum) in AWS using EC2.
 - Configured Amazon S3 as the Data Lake to store all raw academic attendance data.
 
