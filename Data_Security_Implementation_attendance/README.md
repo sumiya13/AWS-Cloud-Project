@@ -40,17 +40,17 @@ This project utilizes three datasets:
 - **Building_Name**: The location of the department
 
 
-## 🔐 Secured Datasets in AWS S3
+### 🔐 Secured Datasets in AWS S3
 
-### 1. Student Attendance Data  
+#### 1. Student Attendance Data  
 **PII requiring encryption**  
 `Student_ID` | `Name` | `GPA` | `Attendance (%)` | `Scholarship Status`  
 
-### 2. Instructor Records  
+#### 2. Instructor Records  
 **Sensitive employment data**  
 `Instructor_ID` | `Salary` | `Experience_Years`  
 
-### 3. Department Information  
+#### 3. Department Information  
 **Organizational structure**  
 `Department_ID` | `Head_of_Department` | `Faculty_Count`  
 
