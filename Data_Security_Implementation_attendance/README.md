@@ -65,6 +65,10 @@ This project utilizes three datasets:
 
 ## 🔐 Methodology
 
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/c7907d24-2994-4fc3-9a32-7aaf8d5bb200" />
+
+Design Part: Draw.io design for data security implementation
+
 ### 1. **Confidentiality and Integrity via Encryption (AWS KMS + SSE-KMS)**
 - Created a **Customer Managed Key** in **AWS Key Management Service (KMS)**:
   - **Key Name**: `aca-attn-key-sum`
