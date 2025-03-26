@@ -9,7 +9,7 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
 To explore my **AWS Cloud Projects**:
 
 - 👉 **Click on any project title** to view full project details on a separate page.
-- 🔙 **To return to the main portfolio page**, simply click the **"Back"** button on click **"AWS Cloud Project"**.
+- 🔙 **To return to the main portfolio page**, simply click the **"Back"** button.
 
 
 ## Projects
