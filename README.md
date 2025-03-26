@@ -4,8 +4,11 @@ Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've wor
 
 ## Projects
 1. **[Project 1: Automated Data Ingestion for UCW Academics Attendance Using AWS](./Auto_Data_Ingestion)**
-   - **Objective**: Ingest academic attendance data into AWS Data Analysis Platform (DAP).
-   - **Tools**: AWS S3, EC2, PowerShell, Draw.io.
+   - **Objective**: The primary objective of this project is to ingest academic attendance data from the UCW operational environment into AWS Data Analysis Platform (DAP). The dataset includes students, instructors, and department details, and our goal is to establish a structured data lake for efficient storage and analysis.
+   - **Tools**:
+      - **Cloud Services: AWS S3, AWS EC2**
+      - **Scripting: Windows PowerShell**
+      - **Design & Planning: Draw.io**
 
 
 2. **[Project 2:  Summarization and ETL Pipeline for UCW Academics Attendance Using AWS Services](./Academics_Attendancedata_Summarization)**
