@@ -23,6 +23,12 @@ We worked with **three cleaned datasets** stored in the `academics-trf-sum` S3 b
 
 ## **📌 Methodology**  
 
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/dde82dc0-e653-45bd-8ad8-e0b3131dbac5" />
+
+Design for Academics (Attendace) data cataloging and summarization. 
+
+
+
 ### **1. Data Cataloging with AWS Glue**  
 ✅ **Created a Glue Database**: `academics-data-catalog-sum`  
 ✅ **Set Up Crawlers**:  
