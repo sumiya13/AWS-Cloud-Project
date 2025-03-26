@@ -31,6 +31,12 @@ Design for Academics (Attendace) data cataloging and summarization.
 
 ### **1. Data Cataloging with AWS Glue**  
 ✅ **Created a Glue Database**: `academics-data-catalog-sum`  
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/0b38730e-993c-4e19-ba9f-03a137b904bf" />
+
+AWS Glue Data Catalog for Attendance Dataset 
+
+
 ✅ **Set Up Crawlers**:  
    - `academics-crw-sum` (automatically detects schema from S3)  
    - Ran crawlers to generate **3 structured tables** (student, instructor, department)  
@@ -46,6 +52,12 @@ Design for Academics (Attendace) data cataloging and summarization.
 We built **three summarization pipelines** to extract key metrics:  
 
 #### **📊 Student Attendance Summary**  
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/aed74570-d411-4fdb-864c-76f42482d4b6" />
+
+ETL pipeline for Student-list-Summarization
+
+
 - **Filter**: Students with `Attendance (%) > 85`  
 - **Group By**: `Major`  
 - **Aggregations**:  
