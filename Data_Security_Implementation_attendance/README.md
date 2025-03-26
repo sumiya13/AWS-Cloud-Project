@@ -65,7 +65,7 @@ This project utilizes three datasets:
 
 ## 🔐 Methodology
 
-<img width="600" alt="Image" src="https://github.com/user-attachments/assets/c7907d24-2994-4fc3-9a32-7aaf8d5bb200" />
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/2528848f-7157-4628-9183-91e817830df6" />
 
 Design Part: Draw.io design for data security implementation
 
@@ -75,6 +75,12 @@ Design Part: Draw.io design for data security implementation
   - **Key Type**: Symmetric
   - **Key Usage**: Encryption and Decryption
   - **Permissions**: Attached to IAM Role `Labrole`
+ 
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/646e8b45-72c3-4557-8a98-396e7dbcfd86" />
+
+Key creation using AWS key Management Service (KMS)
+
 - Applied the KMS key to three primary buckets:
   - `aca-raw-sum`
   - `aca-trf-sum`
@@ -82,6 +88,23 @@ Design Part: Draw.io design for data security implementation
 - Updated **Default Encryption Settings** in each bucket:
   - From: `SSE-S3` (Amazon-managed key)
   - To: `SSE-KMS` (Customer-managed key `aca-attn-key-sum`)
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/5a0a7694-77ec-418c-bf50-9fb1d426b959" />
+
+Changing the 'Default encryption' in 'academics-raw-sum' bucket to use the new key 'aca-attn-key-sum'
+
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/eebc6234-9cc6-469d-a64a-80976243572f" />
+
+Changing the 'Default encryption' in 'academics-trf-sum' bucket to use the new key 'aca-attn-key-sum'
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/a066423b-3a57-48bf-bd97-f1547a41e793" />
+
+Changing the 'Default encryption' in 'academics-cur-sum' bucket to use the new key 'aca-attn-key-sum'
+
 
 🔐 This ensures all data **uploaded is encrypted automatically**, and **decrypted upon access**, maintaining both confidentiality and integrity.
 
@@ -92,6 +115,20 @@ Design Part: Draw.io design for data security implementation
   - `aca-raw-sum`
   - `aca-trf-sum`
   - `aca-cur-sum`
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/0e5f6ef1-7398-4a74-b6a3-c6d7b9c529a6" />
+
+Enabling the 'Bucket Versioning' for 'academics-raw-sum' bucket 
+
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/33dc59e6-0135-4ef0-baf7-46f65d6a506d" />
+
+Enabling the 'Bucket Versioning' for 'academics-trf-sum' bucket 
+
+<img width="600" alt="Image" src="https://github.com/user-attachments/assets/e90ca737-bc8a-4945-b8eb-b64e5300ab75" />
+
+Enabling the 'Bucket Versioning' for 'academics-cur-sum' bucket 
+
 
 📌 This ensures **every version of every object** is retained. If a file is overwritten or deleted, previous versions remain accessible.
 
