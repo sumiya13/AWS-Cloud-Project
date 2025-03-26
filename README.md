@@ -4,6 +4,14 @@
 
 Welcome to my AWS Cloud Projects portfolio! Below is a list of projects I've worked on:
 
+#### 🧭 Navigation Tip
+
+To explore my **AWS Cloud Projects**:
+
+- 👉 **Click on any project title** to view full project details on a separate page.
+- 🔙 **To return to the main portfolio page**, simply click the **"Back"** button on click **"AWS Cloud Project"**.
+
+
 ## Projects
 1. **[Project 1: Automated Data Ingestion for UCW Academics Attendance Using AWS](./Auto_Data_Ingestion)**
    - **Objective**: The primary objective of this project is to ingest academic attendance data from the UCW operational environment into AWS Data Analysis Platform (DAP). The dataset includes students, instructors, and department details, and our goal is to establish a structured data lake for efficient storage and analysis.
