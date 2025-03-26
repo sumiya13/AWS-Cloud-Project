@@ -37,7 +37,29 @@ This project utilizes three datasets:
 - **Department_Name**: Name of the department  
 - **Head_of_Department**: Name of the department head  
 - **Number_of_Faculty**: Total faculty members in the department  
-- **Building_Name**: The location of the department  
+- **Building_Name**: The location of the department
+
+
+## 🔐 Secured Datasets in AWS S3
+
+### 1. Student Attendance Data  
+**PII requiring encryption**  
+`Student_ID` | `Name` | `GPA` | `Attendance (%)` | `Scholarship Status`  
+
+### 2. Instructor Records  
+**Sensitive employment data**  
+`Instructor_ID` | `Salary` | `Experience_Years`  
+
+### 3. Department Information  
+**Organizational structure**  
+`Department_ID` | `Head_of_Department` | `Faculty_Count`  
+
+
+**Security Classification**:
+- 🔒 **Tier 1 (High Sensitivity)**: Student PII
+- 🔐 **Tier 2 (Medium Sensitivity)**: Instructor salary data
+- 🔓 **Tier 3 (Low Sensitivity)**: Department metadata
+
 
 ---
 
