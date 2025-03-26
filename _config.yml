@@ -1,5 +1,13 @@
-Title: Sumiya Fatema 
-Logo: /assets/img/headshot_circle.png
-#description: text below image
-#show_downloads: true
+title: Sumiya Fatema
+logo: /assets/img/headshot_circle.png
+description: >
+  👩‍💻 Cloud Computing | AWS Projects | Data Engineering  
+  Welcome to my GitHub Portfolio! Explore my work in data ingestion, security, analytics, and AWS services.
+
+  <br><br>
+  <img src="https://your-badge-image-link-here" alt="AWS Academy Graduate - Cloud Foundations Badge" width="150">
+  <br>
+  <a href="https://www.credly.com/badges/your-badge-id" target="_blank">View my AWS Academy Cloud Foundations Credential</a>
 theme: jekyll-theme-minimal
+show_downloads: false
+google_analytics:
