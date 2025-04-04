@@ -34,7 +34,7 @@ This project utilizes three datasets:
 - **Number_of_Faculty**: Total faculty members in the department  
 - **Building_Name**: The location of the department
 
-## 📌** Methodology** 
+## 📌**Methodology** 
 1. _Data Ingestion Setup_
 - Designed the Data Analysis Platform (DAP) using **Draw.io** to map out the ingestion process.
 - Created a Virtual Server (Academic General Virtual Server - AGVS-Sum) in **AWS using EC2**.
