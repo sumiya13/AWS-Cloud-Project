@@ -103,13 +103,13 @@ Succesful Department Data Ingestion in AWS S3 raw Bucket
 
 
 
-## 🛠** Tools & Technologies**  
+## 🛠**Tools & Technologies**  
 - Cloud Services: AWS S3, AWS EC2
 - Scripting: Windows PowerShell
 - Design & Planning: Draw.io
 - Version Control: GitHub
 
-## 📦** Deliverables**  
+## 📦**Deliverables**  
 - Infrastructure Design Diagram (Draw.io)
 - AWS S3 Data Ingestion Process
 - PowerShell Commands for Data Upload
